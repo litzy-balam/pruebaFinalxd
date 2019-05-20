@@ -6,13 +6,355 @@
     android:layout_height="match_parent"
     tools:context=".FourFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.v4.widget.NestedScrollView
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="wrap_content"
+        android:paddingTop="10dp"
         android:layout_height="wrap_content"
-        android:text="Four"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
+        tools:context=".fragment_four">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:orientation="horizontal" >
+            <!--<HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10px"> -->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10px"
+                >
+
+                <!---->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/La"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:text="La"
+                            android:background="#FD999A"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/Ce"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:autoText="false"
+                            android:background="#FD999A"
+                            android:text="Ce"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/Pr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#FD999A"
+                            android:text="Pr"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/Nd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#FD999A"
+                            android:text="Nd"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/Sm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#FD999A"
+                            android:text="Sm"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/Eu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#FD999A"
+                            android:text="Eu"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/Gd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#FD999A"
+                            android:text="Gd"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+                        <Button
+                            android:id="@+id/Tb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#FD999A"
+                            android:text="Tb"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/Dy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#FD999A"
+                            android:text="Dy"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/Ho"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#FD999A"
+                            android:text="Ho"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/Er"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#FD999A"
+                            android:text="Er"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/Tm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#FD999A"
+                            android:text="Tm"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+                        <Button
+                            android:id="@+id/Yb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#FD999A"
+                            android:text="Yb"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+                        <Button
+                            android:id="@+id/Lu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#FD999A"
+                            android:text="Lu"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+                        <Button
+                            android:id="@+id/Ac"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#7E427E"
+                            android:text="Ac"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/Th"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#7E427E"
+                            android:text="Th"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/Pa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#7E427E"
+                            android:text="Pa"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+                        <Button
+                            android:id="@+id/U"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#7E427E"
+                            android:text="U"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+                        <Button
+                            android:id="@+id/Np"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#7E427E"
+                            android:text="Np"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+
+                        <Button
+                            android:id="@+id/h4"
+                            android:layout_width="match_parent"
+                            android:layout_height="71dp"
+                            android:background="@android:color/transparent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="105dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/Pu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Pu"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:background="#7E427E"/>
+
+                        <Button
+                            android:id="@+id/Am"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Am"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:background="#7E427E"/>
+
+                        <Button
+                            android:id="@+id/Cm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Cm"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:background="#7E427E"/>
+
+                        <Button
+                            android:id="@+id/Bk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Bk"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:background="#7E427E"/>
+
+                        <Button
+                            android:id="@+id/Cf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Cf"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:background="#7E427E"/>
+
+                        <Button
+                            android:id="@+id/Es"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Es"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:background="#7E427E"/>
+
+                        <Button
+                            android:id="@+id/Fm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Fm"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:background="#7E427E"/>
+
+                        <Button
+                            android:id="@+id/Md"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Md"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:background="#7E427E"/>
+
+                        <Button
+                            android:id="@+id/No"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:text="No"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:background="#7E427E"/>
+
+                        <Button
+                            android:id="@+id/Lr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Lr"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+                            android:background="#7E427E"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+            <!-- </HorizontalScrollView> -->
+
+            <!-- TODO: Update blank fragment layout -->
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
 
 </RelativeLayout>
