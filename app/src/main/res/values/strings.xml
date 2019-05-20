@@ -3,6 +3,15 @@
     <string name="title_informacion">Información</string>
     <string name="title_tabla">Tabla periodica</string>
     <string name="title_elementos">Elementos</string>
+    <string name="action_settings">Settings</string>
+    <string name="nometal">No \n\metales</string>
+    <string name="metalesp">Metales\n\ Bloque p</string>
+    <string name="gasesn">Gases\n\Nobles</string>
+    <string name="metalest">Metales\n\de transición</string>
+    <string name="alacinot">Alcalino-\n\ terreos</string>
+    <string name="alcalinos">Alcalinos</string>
+    <string name="lantanidos">Lantánidos</string>
+    <string name="actinidos">Actínidos</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

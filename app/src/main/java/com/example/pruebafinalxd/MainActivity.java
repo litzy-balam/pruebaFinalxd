@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView navigation=(BottomNavigationView)findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
-        //CoordinatorLayout.LayoutParams layoutParams=(CoordinatorLayout.LayoutParams)navigation.getLayoutParams();
-        //layoutParams.setBehavior(new BottomNavigationBehavior());
+        CoordinatorLayout.LayoutParams layoutParams=(CoordinatorLayout.LayoutParams)navigation.getLayoutParams();
+        layoutParams.setBehavior(new BottomNavigationBehavior());
         //se agrega el load
         toolbar.setTitle("Tabla Periodica");
         loadFragment(new tablaPeriodicaFragment() );
